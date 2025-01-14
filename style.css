@@ -10,3 +10,21 @@ body{
  padding: 14px 20px;
  background-color: rgb(144, 44, 234);
 }
+.navbar{
+    width: 140px;
+    background-color: #555;
+}
+.navbar a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+.navbar a:hover {
+    background-color: #000;
+}
+.active{
+    background: rgb(144, 44, 234);
+}
