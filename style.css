@@ -28,3 +28,9 @@ body{
 .active{
     background: rgb(144, 44, 234);
 }
+.color{
+    background: pink;
+}
+.h1-color{
+    background: red;
+}
