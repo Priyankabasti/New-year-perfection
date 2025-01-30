@@ -13,7 +13,7 @@ console.log(salary)
 const page=30;
 console.log(age)
 
-//Dataa types
+//Dataa types - Primitive
 //String
 var Firstname="Priya";
 var lastName="Basti";
@@ -35,3 +35,20 @@ console.log(result);
 //Null
 let address = null;
 console.log(address);
+
+//Dataa types - Non Primitive
+// 1. Objects
+const person ={
+    name : "Priya",
+    age : 20,
+    address:{
+        city : "Bangalore",
+        state : "Karnataka",
+        country : "India"
+        },
+    phone:9743567548,
+}
+console.log(person);
+console.log(person.name +' is ' +age+' years old');
+console.log(person.age+1);
+console.log(person.address.city);
