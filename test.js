@@ -52,3 +52,33 @@ console.log(person);
 console.log(person.name +' is ' +age+' years old');
 console.log(person.age+1);
 console.log(person.address.city);
+
+// 2.Array
+
+const arr =[1,2,4,6,8,0];
+console.log(arr);
+console.log(arr[1]);
+console.log(arr[2]+1);
+
+//Operators
+// 1. Assignment Operators
+let x=10;
+let y=20;
+console.log(x+y);
+
+//Airthmetic operator
+let az=10;
+let b=20;
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a/b);
+console.log(a%b);
+
+// 2. Comparison Operators
+let c=10;
+let d=20;
+console.log(a==b);
+console.log(a!=b);
+console.log(a>b);
+console.log(a<b);
