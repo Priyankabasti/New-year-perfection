@@ -82,3 +82,10 @@ console.log(a==b);
 console.log(a!=b);
 console.log(a>b);
 console.log(a<b);
+
+// 3. Logical Operators
+let e=10;
+let f=20;
+console.log(e>f && e>10);
+console.log(e>f || e>10);
+console.log(!e>10);
