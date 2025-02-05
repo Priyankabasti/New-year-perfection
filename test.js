@@ -89,3 +89,14 @@ let f=20;
 console.log(e>f && e>10);
 console.log(e>f || e>10);
 console.log(!e>10);
+
+// 4.Conditional (ternary) operator
+let g=10;
+let h=2;
+let answer =(g>h) ? "g is greater" :"h is greater";
+console.log(answer);
+
+let preeti = 30;
+let parta =3;
+let ages = (preeti>parta)?"preeti can go to school":"Partha can go to school";
+console.log(ages);
