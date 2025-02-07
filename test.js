@@ -100,3 +100,13 @@ let preeti = 30;
 let parta =3;
 let ages = (preeti>parta)?"preeti can go to school":"Partha can go to school";
 console.log(ages);
+
+//Functions
+ function add(a,b){
+    return a+b;
+ }
+ console.log(add(10,20));
+
+ const add1 = (a,b) =>{
+    return a+b;
+ }
