@@ -105,8 +105,15 @@ console.log(ages);
  function add(a,b){
     return a+b;
  }
- console.log(add(10,20));
+ console.log(add(11,20));
 
  const add1 = (a,b) =>{
     return a+b;
  }
+ console.log(add1(10,25));
+
+ function multifly(a,b){
+    return a*b
+ }
+ console.log(multifly(12,20));
+ console.log(a);
