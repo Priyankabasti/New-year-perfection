@@ -117,3 +117,19 @@ console.log(ages);
  }
  console.log(multifly(12,20));
  console.log(a);
+
+ //scope
+
+ let ab=100; //global scope
+ {
+   let ab=200;
+   console.log(ab);
+ }
+ var ba=300; //block scope
+ console.log(ba);
+ {
+   var ba=400;
+   console.log(ba);
+ }
+ console.log(ab);
+ console.log(ba);
