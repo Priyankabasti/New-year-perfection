@@ -133,3 +133,14 @@ console.log(ages);
  }
  console.log(ab);
  console.log(ba);
+
+ //array method - includes
+ let ac=[1,2,3,4,5,6]
+let bc=4;
+let find=ac.includes(bc);
+console.log(find);
+//array method - findindex
+let abc=[1,2,3,4,5,6]
+let bca=4;
+let findout=abc.findIndex((a)=>a===bca);
+console.log(findout);
