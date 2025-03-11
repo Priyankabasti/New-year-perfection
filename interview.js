@@ -8,3 +8,6 @@ let answer = "the answer is " +sum + " " +diff+ " " +mul+ " " +div;
 console.log(answer);
 print(answer);
 alert(answer);
+
+//Events
+<button onclick="date()">India</button>
