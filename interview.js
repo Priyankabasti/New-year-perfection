@@ -20,3 +20,16 @@ function add(a,b) {
  }
  differ(14,2);
  console.log(differ(16,4))
+
+
+ //Normal function
+ 
+ function myFunction(){
+    var name= function myName(){
+        alert("enter your name")
+    };
+    return "Hello "+name+" How are you?"
+ }
+ myFunction()
+  console.log(myFunction())
+  document.write(4+4)
