@@ -32,4 +32,15 @@ function add(a,b) {
  }
  myFunction()
   console.log(myFunction())
-  document.write(4+4)
+  document.write(4+4);
+
+  //function to take input from user
+
+
+    function calculate(){
+        var first= prompt("enter your first number");
+        var second= prompt("enter your second number")
+        var sum=parseInt(first)+parseInt(second);
+        alert("sum is " + sum);
+    }
+    calculate()
