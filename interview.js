@@ -43,4 +43,13 @@ function add(a,b) {
         var sum=parseInt(first)+parseInt(second);
         alert("sum is " + sum);
     }
-    calculate()
+    calculate();
+
+    // another function
+    function start(){
+        var name=prompt("enter your name");
+        var age=prompt("enter your age");
+        alert("your name is " + name + " and your age is " + age);
+
+    }
+    start();
