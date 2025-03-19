@@ -74,3 +74,6 @@ console.log(letter);
 let fruits = "Apple, Banana, Kiwi";
 let part = fruits.slice(7, 13);
 console.log(part);
+
+let repl = names.replace("web", "frontend");
+console.log(repl);
