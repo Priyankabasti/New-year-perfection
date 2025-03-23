@@ -77,3 +77,33 @@ console.log(part);
 
 let repl = names.replace("web", "frontend");
 console.log(repl);
+
+//string split method
+let str = "hello,world,java,python";
+let arr = str.split(",")
+console.log(arr);
+
+//string slice method
+let str1 = "hello,world,java,python";
+let arr1 = str1.slice(7, 13);
+console.log(arr1);
+
+//string trim method
+let str2 = "   hello,world,java,python   ";
+let arr2 = str2.trim();
+console.log(arr2);
+
+//string repeat method
+let str3 = "hello";
+let arr3 = str3.repeat(3);
+console.log(arr3);
+
+//string toUpperCase method
+let str4 = "hello";
+let arr4 = str4.toUpperCase();
+console.log(arr4);
+
+// string toLowerCase method
+let str5 = str4;
+let arr5 = str5.toLowerCase();
+console.log(arr5);
