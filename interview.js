@@ -109,7 +109,7 @@ let arr5 = str5.toLowerCase();
 console.log(arr5);
 
 // string concat method
-let str6 = "hello   ";
-let str7 = "world";
+let str6 = "hello ";
+let str7 = " world";
 let arr6 = str6.concat(str7);
 console.log(arr6);
