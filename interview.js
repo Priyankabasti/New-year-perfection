@@ -99,7 +99,7 @@ let arr3 = str3.repeat(3);
 console.log(arr3);
 
 //string toUpperCase method
-let str4 = "hello";
+let str4 = "hellowwwwwwwwwwwwww";
 let arr4 = str4.toUpperCase();
 console.log(arr4);
 
