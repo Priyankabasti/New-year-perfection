@@ -99,7 +99,7 @@ let arr3 = str3.repeat(3);
 console.log(arr3);
 
 //string toUpperCase method
-let str4 = "hellowwwwwwwwwwwwww";
+let str4 = "hellow";
 let arr4 = str4.toUpperCase();
 console.log(arr4);
 
@@ -109,7 +109,7 @@ let arr5 = str5.toLowerCase();
 console.log(arr5);
 
 // string concat method
-let str6 = "hello ";
+let str6 = "hello mY DEAR";
 let str7 = " world";
 let arr6 = str6.concat(str7);
 console.log(arr6);
