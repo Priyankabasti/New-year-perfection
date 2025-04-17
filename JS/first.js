@@ -40,4 +40,8 @@ for (let i =0;i< fruits.length;i++){
   console.log(fruits[i])
 }
 
-//
+//Map
+const numbers = [1,2,3,4,5];
+
+const double =numbers.map(num => num*3)
+console.log(double);
