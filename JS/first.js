@@ -45,3 +45,27 @@ const numbers = [1,2,3,4,5];
 
 const double =numbers.map(num => num*3)
 console.log(double);
+
+//types of output
+//1. console.log
+//2. return
+//3. print
+//4. alert
+//5. prompt
+
+console.log("this console.log output")
+window.print(5+4);
+window.alert("this is from alert")
+window.prompt("this is from prompt")
+document.write("hello from document write")
+
+//6. confirm
+//7. console.error
+//8. console.warn
+//9. console.info
+//10. console.table
+//11. console.assert
+//12. console.count
+//13. console.countReset
+//14. console.clear
+//15. console.time
