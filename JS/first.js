@@ -69,3 +69,8 @@ document.write("hello from document write")
 //13. console.countReset
 //14. console.clear
 //15. console.time
+
+//function
+for (let i = 0; i < 5; i++) {
+  console.count();
+}
