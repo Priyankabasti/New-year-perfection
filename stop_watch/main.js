@@ -1,9 +1,14 @@
+const count = document.getElementById("count")
+
 function startWatch(){
 console.log("hey")
+document.getElementById("count").innerHTML="Started"
 }
 function stopWatch(){
-    console.log("hey")
+    document.getElementById("count").innerHTML="Stopped"
+
 }
 function restartWatch(){
-    console.log("hey")
+    document.getElementById("count").innerHTML="<h2>00:00</h2>"
+
 }
