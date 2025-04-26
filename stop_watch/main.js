@@ -2,7 +2,7 @@ const count = document.getElementById("count")
 
 function startWatch(){
 console.log("hey")
-document.getElementById("count").innerHTML="Started"
+document.getElementById("count").innerHTML="Started timer"
 }
 function stopWatch(){
     document.getElementById("count").innerHTML="Stopped"
