@@ -5,7 +5,7 @@ console.log("hey")
 document.getElementById("count").innerHTML="Started timer"
 }
 function stopWatch(){
-    document.getElementById("count").innerHTML="Stopped watch"
+    document.getElementById("count").innerHTML="Stopped watch here"
 
 }
 function restartWatch(){
