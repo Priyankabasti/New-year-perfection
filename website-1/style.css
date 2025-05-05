@@ -1,0 +1,22 @@
+.navbar{
+    width:100%;
+    background-color: black;
+    overflow: auto;
+}
+
+.navbar a{
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color:aliceblue;
+    font-size: 36px;
+}
+.navbar a:hover {
+    background-color:rgb(152, 15, 216);
+  }
+  .active {
+    background-color: rgb(152, 15, 216);
+  }
+  
