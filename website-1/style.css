@@ -1,4 +1,6 @@
-.navbar{
+body{
+  margin: 0;
+}.navbar{
     width:100%;
     background-color: black;
     overflow: auto;
