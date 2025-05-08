@@ -113,3 +113,14 @@ let str6 = "hello mY DEAR";
 let str7 = " world";
 let arr6 = str6.concat(str7);
 console.log(arr6);
+
+//objects
+let profile ={
+    name:"Priyanka",
+    age:25,
+    isFollow:true,
+    hobbies:["reading","swimming","dancing"],
+    folloers:59
+}
+console.log(typeof(profile.isFollow))
+console.log(typeof(profile["isFollow"]))
