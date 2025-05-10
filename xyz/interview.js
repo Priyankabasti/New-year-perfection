@@ -119,7 +119,7 @@ let profile ={
     name:"Priyanka",
     age:25,
     isFollow:true,
-    hobbies:["reading","swimming","dancing","running"],
+    hobbies:["reading","swimming","dancing","running","drawing"],
     folloers:59
 }
 console.log(typeof(profile.isFollow))
