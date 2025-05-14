@@ -125,4 +125,9 @@ let profile ={
 console.log(typeof(profile.isFollow))
 console.log(typeof(profile["isFollow"]))
 
+//Array and basic methods
+const icecreams =["veniall","butterscotch","chocolate","blackcurrent"];
+console.log(icecreams.length);
+console.log(icecreams[3-1]);
+
 
