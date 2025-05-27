@@ -7,3 +7,6 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+let a = prompt("hey what are you doing???")
+alert(a);
