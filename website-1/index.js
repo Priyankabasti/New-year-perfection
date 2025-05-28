@@ -8,5 +8,11 @@ function myFunction() {
   }
 }
 
-let a = prompt("hey what are you doing???")
-alert(a);
+let a = prompt("Hey what is your age???");
+
+if (a<18){
+  alert("You are a minor");
+}
+else{
+  alert("You are an adult");
+}
