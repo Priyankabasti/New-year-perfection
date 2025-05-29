@@ -15,6 +15,14 @@
 //   alert("You will not come under this scheme");
 // }
 
+//same thing using ternary operator
+// let age = prompt("How old are you??");
+// age >=18 && age <=60 ? alert("You will come under this scheme") : alert("You will not come under this")
+
+//another one
+let name =prompt("Hey whats yoyr name?");
+name="Priya" ?"Hey Priya Welcome":"No you cant enter here Go back.."
+
 //switch statement
 // let day = prompt("Enter the day of the week");
 // switch (day) {
@@ -36,19 +44,19 @@
 // }
 
 //Another switch case problem
-let word =prompt("Enter your word")
+// let word =prompt("Enter your word")
 
-switch(word){
- case "a":alert("its a vowel");
- break;
- case "e":alert("its a vowel");
- break;
- case "i":alert("its a vowel");
- break;
- case "o":alert("its a vowel");
- break;
- case 'u':alert("its a vowel");
- break;
- default:alert("its a consonant");
- break;
-}
+// switch(word){
+//  case "a":alert("its a vowel");
+//  break;
+//  case "e":alert("its a vowel");
+//  break;
+//  case "i":alert("its a vowel");
+//  break;
+//  case "o":alert("its a vowel");
+//  break;
+//  case 'u':alert("its a vowel");
+//  break;
+//  default:alert("its a consonant");
+//  break;
+// }
