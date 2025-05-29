@@ -1,0 +1,54 @@
+//Conditional statement -if statement
+// let a = prompt("Hey what is your age???");
+
+// if (a < 18) {
+//   alert("You are a minor");
+// } else {
+//   alert("You are an adult");
+// }
+
+// //if else problem
+// let age = prompt("How old are you??");
+// if (age >= 18 && age <= 60) {
+//   alert("You will come under this scheme");
+// } else {
+//   alert("You will not come under this scheme");
+// }
+
+//switch statement
+// let day = prompt("Enter the day of the week");
+// switch (day) {
+//   case "monday":alert("Today is Weekday");
+//         break;
+//   case "tuesday":alert("Today is Weekday");
+//         break;
+//   case "wednesday": alert("Today is Weekday");
+//         break;
+//   case "thursday":alert("Today is Weekday");
+//         break;
+//   case "friday":alert("Today is Weekday");
+//         break;
+//   case "saturday":alert("Today is Weekend");
+//         break;
+//   case "sunday":alert("Today is Weekend");
+//         break;
+//   default:alert("Invalid day");
+// }
+
+//Another switch case problem
+let word =prompt("Enter your word")
+
+switch(word){
+ case "a":alert("its a vowel");
+ break;
+ case "e":alert("its a vowel");
+ break;
+ case "i":alert("its a vowel");
+ break;
+ case "o":alert("its a vowel");
+ break;
+ case 'u':alert("its a vowel");
+ break;
+ default:alert("its a consonant");
+ break;
+}
