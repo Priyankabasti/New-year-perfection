@@ -20,8 +20,8 @@
 // age >=18 && age <=60 ? alert("You will come under this scheme") : alert("You will not come under this")
 
 //another one
-let name =prompt("Hey whats yoyr name?");
-name="Priya" ?"Hey Priya Welcome":"No you cant enter here Go back.."
+// let name =prompt("Hey whats yoyr name?");
+// name="Priya" ?"Hey Priya Welcome":"No you cant enter here Go back.."
 
 //switch statement
 // let day = prompt("Enter the day of the week");
@@ -60,3 +60,18 @@ name="Priya" ?"Hey Priya Welcome":"No you cant enter here Go back.."
 //  default:alert("its a consonant");
 //  break;
 // }
+
+
+//For loop-1
+// let n =  prompt("Enter the number of times you want to print");
+// for (i=0;i<n;i++){
+//     console.log(i);
+// }
+
+//For loop-2
+let m = 10; 
+ let sum; 
+for (i=0;i<=m;i++){
+    sum+=i;
+    console.log(sum);
+}
