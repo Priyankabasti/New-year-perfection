@@ -75,3 +75,10 @@ for (i=0;i<=m;i++){
     sum+=i;
     console.log(sum);
 }
+//For loop-2
+let p = 10; 
+ let sums; 
+for (i=0;i<=m;i++){
+    sum+=i;
+    console.log(sums);
+}
