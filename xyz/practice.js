@@ -69,16 +69,25 @@
 // }
 
 //For loop-2
-let m = 10; 
- let sum; 
-for (i=0;i<=m;i++){
-    sum+=i;
-    console.log(sum);
+// let m = 10; 
+//  let sum; 
+// for (i=0;i<=m;i++){
+//     sum+=i;
+//     console.log(sum);
+// }
+
+//first 10 natural numbers
+// let p = 10; 
+//  let sums=0; 
+// for (i=0;i<p;i++){
+//     sums=i+1;
+//     console.log(sums);
+// }
+
+//sum of first 10 natural numbers
+let q = 10;
+let sum = 0;
+for (i=0;i<=q;i++){
+    sum = sum + i;
 }
-//For loop-2
-let p = 10; 
- let sums; 
-for (i=0;i<=m;i++){
-    sum+=i;
-    console.log(sums);
-}
+console.log(sum);
