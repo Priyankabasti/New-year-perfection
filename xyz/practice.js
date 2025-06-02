@@ -85,9 +85,49 @@
 // }
 
 //sum of first 10 natural numbers
-let q = 10;
-let sum = 0;
-for (i=0;i<=q;i++){
-    sum = sum + i;
+// let q = 10;
+// let sum = 0;
+// for (i=0;i<=q;i++){
+//     sum = sum + i;
+// }
+// console.log(sum);
+
+//Print even numbers
+// let r=prompt("Enter the range");
+// for(let i=1;i<r;i++){
+//     if(i%2==0){
+//         console.log(i);
+//     }
+// }
+
+// Print even numbers from 2 to 20.
+// let s=20;
+// for(let i=2;i<=s;i++){
+//     if(i%2==0){
+//         console.log(i);
+//     }
+// }
+
+// Print odd numbers from 2 to 20.
+// let t=20;
+// for(let i=0;i<t;i++){
+//     if(i%2!=0){
+//         console.log(i);
+//     }
+// }
+
+// Calculate the sum of numbers from 1 to 100.
+// let u=100;
+// let sum=0;
+// for(let i=0;i<=u;i++){
+//     sum=sum+i;
+// }
+// console.log(sum);
+
+// Print the multiplication table of 5.
+let s=50;
+for(let i=2;i<=s;i++){
+    if(i%5==0){
+        console.log(i);
+    }
 }
-console.log(sum);
