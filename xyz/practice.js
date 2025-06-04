@@ -125,9 +125,58 @@
 // console.log(sum);
 
 // Print the multiplication table of 5.
-let s=50;
-for(let i=2;i<=s;i++){
-    if(i%5==0){
-        console.log(i);
-    }
+// let s=50;
+// for(let i=2;i<=s;i++){
+//     if(i%5==0){
+//         console.log(i);
+//     }
+// }
+
+
+//Find the factorial of a number (e.g., 5! = 120).
+// let u=prompt("enter the number to findout the factorial");
+// let sum=1;
+// for(let i=1;i<=u;i++){
+//     sum=sum*i;
+// }
+// console.log(sum);
+
+//Print the squares of numbers from 1 to 10.
+// let u=10;
+// let sum;
+// for(let i=0;i<=u;i++){
+//     sum=i*i;
+//     if(sum%i==0){
+//         console.log(sum);
+//     }
+// }
+
+//Print all odd numbers between 1 and 50.
+// let u=50;
+// for(let i=0;i<=u;i++){
+//     if(i%2!=0){
+//         console.log(i);
+//     }
+// }
+
+// Count how many odd numbers are in an array.
+// let v=[1,2,3,4,5,6,7,8,9,10];
+// let count=0;
+// for(let i=0;i<=v[i];i++){
+//     if(i%2!=0){
+//         console.log(i);
+//     }
+// }
+
+// Count how many even numbers are in an array.
+let v=[1,2,3,4,5,6,7,8,18,4,10,12];
+let count=0;
+for(let i=0;i<=v.length;i++){
+   if(v[i]%2===0){
+    count++;
+   }
 }
+console.log(count);
+
+
+ 
