@@ -169,14 +169,25 @@
 // }
 
 // Count how many even numbers are in an array.
+// let v=[1,2,3,4,5,6,7,8,18,4,10,12];
+// let count=0;
+// for(let i=0;i<=v.length;i++){
+//    if(v[i]%2===0){
+//     count++;
+//    }
+// }
+// console.log(count);
+
+// Count how many numbers are in an array.
 let v=[1,2,3,4,5,6,7,8,18,4,10,12];
 let count=0;
 for(let i=0;i<=v.length;i++){
-   if(v[i]%2===0){
+   if(v[i]<v.length){
     count++;
    }
 }
 console.log(count);
+
 
 
  
