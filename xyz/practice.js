@@ -182,7 +182,7 @@
 let v=[1,2,3,4,5,6,7,8,18,4,10,12];
 let count=0;
 for(let i=0;i<=v.length;i++){
-   if(v[i]<v.length){
+   if(v[i]<v.length-1){
     count++;
    }
 }
