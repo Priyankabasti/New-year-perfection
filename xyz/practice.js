@@ -179,14 +179,23 @@
 // console.log(count);
 
 // Count how many numbers are in an array.
-let v=[1,2,3,4,5,6,7,8,18,4,10,12];
-let count=0;
-for(let i=0;i<=v.length;i++){
-   if(v[i]<v.length-1){
-    count++;
-   }
+// let v=[1,2,3,4,5,6,7,8,18,4,10,12];
+// let count=0;
+// for(let i=0;i<=v.length;i++){
+//    if(v[i]<v.length-1){
+//     count++;
+//    }
+// }
+// console.log(count);
+
+//
+const person = {fname:"John", lname:"Doe", age:25};
+
+let text = "";
+for (let x in person) {
+  text += person[x];
 }
-console.log(count);
+console.log(text);
 
 
 
