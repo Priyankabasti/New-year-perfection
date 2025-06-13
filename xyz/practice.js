@@ -188,14 +188,22 @@
 // }
 // console.log(count);
 
-//
-const person = {fname:"John", lname:"Doe", age:25};
+// For in loop
+// const person = {fname:"John", lname:"Doe", age:25};
+
+// let text = "";
+// for (let x in person) {
+//   text += person[x];
+// }
+// console.log(text);
+
+//another example with array
+const person = [a,b,caches,d,e,f,];
 
 let text = "";
-for (let x in person) {
-  text += person[x];
+for (let x of person) {
+  console.log(text);
 }
-console.log(text);
 
 
 
