@@ -80,4 +80,19 @@ let str = "hello world";
 
 //Do While
 
-//function
+//function to add numbers
+// function add(x,y){
+//   return x+y;
+// }
+// console.log(add(2,4));
+
+//function to take two numbers and give thier sum
+let x=prompt("enter your first digit");
+let y=prompt("enter your second digit");
+
+function sum(x,y){
+  return x+y;
+}
+console.log(sum(x+y))
+console.log(x)
+console.log(y)
