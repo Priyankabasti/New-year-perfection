@@ -87,12 +87,11 @@ let str = "hello world";
 // console.log(add(2,4));
 
 //function to take two numbers and give thier sum
-let x=prompt("enter your first digit");
-let y=prompt("enter your second digit");
+
 
 function sum(x,y){
+   x=prompt("enter your first digit");
+ y=prompt("enter your second digit");
   return x+y;
 }
-console.log(sum(x+y))
-console.log(x)
-console.log(y)
+console.log(sum());
