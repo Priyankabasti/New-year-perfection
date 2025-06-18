@@ -87,11 +87,27 @@ let str = "hello world";
 // console.log(add(2,4));
 
 //function to take two numbers and give thier sum
+// function kudu(){
+//   let first = parseFloat(prompt("Enter your first numcber"));
+//   let second = parseFloat(prompt("Enter your second number"));
 
+//   let add = first + second;
+//   let diff = first - second;
+//   let mul = first * second;
+//   let div = first / second;
 
-function sum(x,y){
-   x=prompt("enter your first digit");
- y=prompt("enter your second digit");
-  return x+y;
+//   alert("the result of "+first+" and "+second+"\n the sum is "+add+  "\n the difference is "+diff+"\n the product is "+mul+"\n the quotient is "+div);
+// }
+// kudu()
+
+//check the number is even or odd
+function check(){
+  let num = parseFloat(prompt("Enter your first numcber"));
+
+  if(num %2 ===0){
+    alert("the number is even");
+  } else{
+    alert("the number is odd");
+  }
 }
-console.log(sum());
+check();
