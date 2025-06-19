@@ -101,13 +101,70 @@ let str = "hello world";
 // kudu()
 
 //check the number is even or odd
-function check(){
-  let num = parseFloat(prompt("Enter your first numcber"));
+// function check(){
+//   let num = parseFloat(prompt("Enter your first numcber"));
 
-  if(num %2 ===0){
-    alert("the number is even");
-  } else{
-    alert("the number is odd");
-  }
+//   if(num %2 ===0){
+//     alert("the number is even");
+//   } else{
+//     alert("the number is odd");
+//   }
+// }
+// check();
+
+
+// greeting
+// function say(){
+//   let name = prompt("Enter your name");
+//   let age = prompt("Enter your age");
+//   let gender = prompt("Enter your gender");
+//   let country = prompt("Enter your country");
+//   let city = prompt("Enter your city");
+//   let phone = prompt("Enter your phone");
+//   let email = prompt("Enter your email");
+//   let address = prompt("Enter your address");
+//   let hobby = prompt("Enter your hobby");
+//   let education = prompt("Enter your education");
+//   let work = prompt("Enter your work");
+//   let salary = prompt("Enter your salary");
+//   let car = prompt("Enter your car");
+//   let house = prompt("Enter your house");
+//   let family = prompt("Enter your family");
+//   let friends = prompt("Enter your friends");
+//   let about = prompt("Enter about yourself");
+//   alert("Hello "+name+"\n your age is "+age+"\n your gender is "+gender+"\n your country is "+country+"\n your city is "+city+"\n your phone is "+phone+"\n your email is "+email+"\n your address is "+address+"\n your hobby is "+hobby+"\n your education is "+education+"\n your work is "+
+//     work+"\n your salary is "+salary+"\n your car is "+car+"\n your house is "+house+"\n your family is "+family+"\n your friends is "+friends+"\n about yourself is "+about);
+// }
+// say();
+
+//Convert Celsius to Fahrenheit
+// function convert(){
+//   let C = parseFloat(prompt("Enter your number"));
+//   F = C*(9/5)+32;
+//   alert(F);
+// }
+// convert();
+
+// Find Maximum
+// function max(){
+//   let num1 = parseFloat(prompt("Enter your first number"));
+//   let num2 = parseFloat(prompt("Enter your second number"));
+//   let num3 = parseFloat(prompt("Enter your third number"));
+//   if(num1>num2 && num1>num3){
+//     alert("num1 is greatest")
+//   }else if(num2>num3){
+//     alert("num2 is greatest")
+//   }else{
+//     alert("num3 is greatest")
+//   }
+// }
+// max();
+
+//Get Last Character --- let lastchar=str[str.length-1]
+function last(){
+let str=prompt("Enter the string");
+ let last=str.length-1;
+ let lastchar=str[last-1];
+ alert(lastchar);
 }
-check();
+last()
