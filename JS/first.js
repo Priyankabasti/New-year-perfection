@@ -167,4 +167,6 @@ let str=prompt("Enter the string");
  let lastchar=str[last-1];
  alert(lastchar);
 }
-last()
+last();
+
+//fubction for intermediate level
