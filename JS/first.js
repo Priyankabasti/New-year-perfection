@@ -169,4 +169,4 @@ let str=prompt("Enter the string");
 }
 last();
 
-//fubction for intermediate level
+//function for intermediate level
