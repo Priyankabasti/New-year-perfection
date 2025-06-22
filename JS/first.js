@@ -170,3 +170,14 @@ let str=prompt("Enter the string");
 last();
 
 //function for intermediate level
+
+//callback function
+function callbackFunction(){
+  console.log("Callback function executed");
+  let callback = function(){
+    console.log("Callback function executed");
+    }
+    callback();
+    }
+    callbackFunction();
+    
