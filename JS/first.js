@@ -181,3 +181,8 @@ function callbackFunction(){
     }
     callbackFunction();
     
+
+    // objects
+    let car ={type:"abc",model:"500",color:"white"};
+    car.price="250000";
+    console.log(car);
