@@ -188,4 +188,4 @@ function callbackFunction(){
     console.log(car);
 
     //another object
-    
+    let obj= {}
