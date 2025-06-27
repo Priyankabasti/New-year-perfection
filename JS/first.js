@@ -188,4 +188,6 @@ function callbackFunction(){
     console.log(car);
 
     //another object
-    let obj= {}
+    let obj= {name:"priya",age:"26",job:"engineer"};
+    obj.salary="50k";
+    console.log(obj);
