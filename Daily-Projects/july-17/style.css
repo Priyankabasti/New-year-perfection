@@ -18,20 +18,24 @@ body{
     width: 350px;
     padding: 25px;
     display: flex;
+    flex-direction:row-reverse;
     border: 2px solid black;
+    align-items: end;
+    justify-content: center;
 }
 .red{
-background: rgb(231, 116, 116);
+background: rgb(238, 144, 144);
 height: 75px;
 width: 55px;
 padding: 20px;
 margin: 4px;
 border: 1px solid black;
 border-top-left-radius: 20px;
-border-top-right-radius: 20px;
+border-top-right-radius: 30px;
+/* border-radius: 20px; */
 }
 .blue{
-background: rgb(97, 178, 231);
+background: rgb(124, 195, 243);
 height: 75px;
 width: 55px;
 padding: 25px;
@@ -41,7 +45,7 @@ border: 1px solid black;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
 }
-.black{
+.purple{
 background: rgb(170, 74, 235);
 height: 75px;
 width: 55px;
@@ -49,4 +53,28 @@ padding: 20px;
 border: 1px solid black;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
+}
+
+.white{
+    background: white;
+    height: 19px;
+    border-radius: 20%;
+}
+
+.pose{
+    background: #192de4;
+    height: 120px;
+    width: 155px;
+    position: relative;
+
+}
+.one{
+    height: 75px;
+width: 200px;
+    background: #e01818;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
