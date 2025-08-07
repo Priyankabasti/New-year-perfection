@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <!--Header
+    Logo (can just be your name or initials)
+    Navigation menu with 3 links: Home, About, Contact
+    Make it stick to the top while scrolling (sticky navbar) -->
+      <div class="header">
+        <div class="nav">
+          <img src="" alt="Logo here" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hero-section">
+        <section id="home" class="hero">
+          <h2>Hi, I'm Priyanka 👋</h2>
+          <p>
+            A passionate Front-End Developer learning and building web
+            experiences.
+          </p>
+          <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});">
+            Contact Me
+          </button>
+        </section>
+      </div>
+      <section id="about">
+        <h2>About Me</h2>
+        <img
+          src="https://via.placeholder.com/150"
+          alt="Priyanka"
+          class="profile-pic"
+        />
+        <p>
+          I'm a Front-End Developer with a strong focus on HTML, CSS, and
+          JavaScript. I love bringing ideas to life in the browser and learning
+          new tools every day.
+        </p>
+        <p>
+          Currently, I'm working on improving my skills by building real-world
+          projects and exploring modern web technologies like React and
+          Firebase.
+        </p>
+      </section>
+      <div class="skill-section"></div>
+      <div class="contact section"></div>
+      <div class="footer"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
