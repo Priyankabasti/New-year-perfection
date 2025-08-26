@@ -26,3 +26,10 @@ console.log(arr1);
 let arr2 = [1, 2, 3, 4, 5];
 arr2.unshift(0);
 console.log(arr2);
+
+//foreach 
+let names = ["ria","riya","priya","piya"];
+names.forEach(function(val){
+    val="p"+val;
+    console.log(val);
+ })
